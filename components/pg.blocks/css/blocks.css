@@ -1,5 +1,3 @@
-
-
 /*
 Template Name: Bootstrap Starter Kit - Header 1
 Description: Business Startup & Prototyping HTML Framework
@@ -604,8 +602,7 @@ Version: 1.0
 }
 
 #header-3 .hero
-{
-    background: url('../images/header-3-bg.jpg') no-repeat center center;
+{background: url('../images/header-3-bg.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -620,7 +617,6 @@ Version: 1.0
     font-weight: 600;
     color: #31152B;
 }
-
 
 #header-3 .hero .lead
 {
@@ -1478,6 +1474,7 @@ Version: 1.0
 
 #quote-carousel
 {
+--empty-placeholder: 0px;
 }
 
 .content-2-4 h1, .content-2-4 p
@@ -1888,6 +1885,7 @@ Version: 1.0
 
 .content-2-10 .border-box h2
 {
+--empty-placeholder: 0px;
 }
 
 /*	CONTENT BLOCK 2-10 MEDIA QUERIES
@@ -1971,6 +1969,7 @@ Version: 1.0
 
 .content-3-1 h1
 {
+--empty-placeholder: 0px;
 }
 
 .content-3-1 h2
@@ -2035,6 +2034,7 @@ Version: 1.0
 
 .content-3-2 h1
 {
+--empty-placeholder: 0px;
 }
 
 .content-3-2 h2
@@ -2077,7 +2077,6 @@ Version: 1.0
 
 .content-3-3
 {
-    background-image: url("../images/seagulls.jpg");
     background-size: cover !important;
     min-height: 500px;
 }
@@ -2099,12 +2098,13 @@ Version: 1.0
 
 .content-3-3 h1
 {
+--empty-placeholder: 0px;
 }
 
-.content-3-3 h2
+.content-3-3 h1
 {
     margin-top: 100px;
-    font-size: 13px;
+    font-size: 33px;
 }
 
 /*	CONTENT BLOCK 3-3 MEDIA QUERIES
@@ -2660,8 +2660,7 @@ Version: 1.0
 }
 
 *, *:after, *:before
-{
-    box-sizing: border-box;
+{box-sizing: border-box
 }
 
 .grid
@@ -3230,6 +3229,7 @@ Version: 1.0
 {
     width: 100%;
 }
+
 
 /*
 Template Name: Bootstrap Starter Kit - Team 2
@@ -4375,8 +4375,7 @@ Version: 1.0
 
 .copyright-bar
 {
-    height: 70px;
-    padding-top: 20px;
+    height: 70px;padding-top: 20px;
     background-color: #233447;
     position: relative;
     bottom: 0;
@@ -4407,4 +4406,13 @@ Version: 1.0
     font-weight: 700;
     margin: 0;
 }
-
+uos-title  {
+--empty-placeholder: 0px;
+}uos_title {
+    font-size: 50px; 
+}.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
